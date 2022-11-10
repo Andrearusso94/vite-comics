@@ -7,7 +7,7 @@ export default {
     <header id="site-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light  bg-light">
-                <img src="../assets/img/dc-logo.png" alt="" class="">
+                <img src="../assets/img/dc-logo.png" alt="" class="my-2">
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav">
