@@ -58,6 +58,7 @@ export default {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav">
                         <li v-for="item in menu" class="nav-item active">
+
                             <a class="nav-link text-dark" :href="item.href">{{ item.text }}</a>
                         </li>
 
