@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+footer {
+    background-image: url('./assets//img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container_social {
+    background-color: $light_dark;
+
+    h3 {
+        color: $primary_color;
+    }
+
+    button {
+        background-color: $light_dark;
+        color: white;
+        border: 2px solid;
+        border-color: $primary_color;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.col-6 {
+    img {
+
+        width: 50%;
+    }
+
+
+}
