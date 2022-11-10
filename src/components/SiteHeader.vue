@@ -1,6 +1,52 @@
 <script>
 export default {
     name: 'SiteHeader',
+    data() {
+        return {
+            menu: [
+                {
+                    text: 'Charaters',
+                    href: '#',
+                },
+                {
+                    text: 'Comics',
+                    href: '#',
+                },
+                {
+                    text: 'Movies',
+                    href: '#',
+                },
+                {
+                    text: 'Tv',
+                    href: '#',
+                },
+                {
+                    text: 'Games',
+                    href: '#',
+                },
+                {
+                    text: 'Collectibles',
+                    href: '#',
+                },
+                {
+                    text: 'Video',
+                    href: '#',
+                },
+                {
+                    text: 'Fans',
+                    href: '#',
+                },
+                {
+                    text: 'News',
+                    href: '#',
+                },
+                {
+                    text: 'Shop',
+                    href: '#',
+                }
+            ]
+        }
+    }
 }
 </script>
 <template>
@@ -11,36 +57,10 @@ export default {
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link text-dark" href="#">Characters</a>
+                        <li v-for="item in menu" class="nav-item active">
+                            <a class="nav-link text-dark" :href="item.href">{{ item.text }}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Comics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Tv</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Movies</a>
-                        </li>
+
                     </ul>
                 </div>
             </nav>
