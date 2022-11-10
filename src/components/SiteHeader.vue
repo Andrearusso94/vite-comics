@@ -12,34 +12,34 @@ export default {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="" href="#">Characters</a>
+                            <a class="nav-link text-dark" href="#">Characters</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Comics</a>
+                            <a class="nav-link text-dark" href="#">Comics</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Tv</a>
+                            <a class="nav-link text-dark" href="#">Tv</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Games</a>
+                            <a class="nav-link text-dark" href="#">Games</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                     </ul>
                 </div>
