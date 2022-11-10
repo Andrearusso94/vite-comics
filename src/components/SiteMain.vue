@@ -16,7 +16,7 @@ export default {
                 },
                 {
                     text: 'subscription',
-                    img: '../assets/img/buy-comics-subscription.png',
+                    img: '../assets/img/buy-comics-subscriptions.png',
                     href: '#',
                 },
                 {
@@ -30,6 +30,11 @@ export default {
                     href: '#',
                 },
             ]
+        }
+    },
+    methods: {
+        imagePath(urlImg) {
+            return new URL(urlImg, import.meta.url).href
         }
     }
 
@@ -46,10 +51,11 @@ export default {
         <div class="container_secondary">
             <div class="container">
                 <div class="row justify-content-around">
-                    <div v-for="item in menu" class="col-2">
-                        <img :src="item.img" alt="">
+                    <div v-for="item in menu" class="col-2 my-5">
+                        <img :src="imagePath(item.img)" alt="">
 
-                        <a :href="item.href">{{ item.text }}</a>
+
+                        <a class="mx-3" :href="item.href">{{ item.text }}</a>
                     </div>
 
                 </div>

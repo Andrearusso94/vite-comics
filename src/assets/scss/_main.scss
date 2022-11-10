@@ -12,4 +12,16 @@
     background-color: $primary_color;
     margin-top: - 8px;
 
+    a {
+        color: $secondary_color;
+        text-decoration: none;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+
+    img {
+        width: 45px;
+    }
+
+
 }
