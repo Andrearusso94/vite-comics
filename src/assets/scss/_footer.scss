@@ -38,12 +38,15 @@ footer {
 
 .col-6.image {
     margin-top: -100px;
+    margin-bottom: -100px;
 }
 
 
 
 .container_social {
     background-color: $light_dark;
+    z-index: 1;
+    position: relative;
 
     h3 {
         color: $primary_color;
