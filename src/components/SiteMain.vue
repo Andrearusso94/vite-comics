@@ -1,16 +1,19 @@
 <script>
 import Banner from './Banner.vue'
+import Jumbo from './Jumbo.vue'
 export default {
     name: 'SiteMain',
 
     components: {
         Banner,
+        Jumbo,
     }
 
 }
 </script>
 <template>
     <main id="site-main">
+        <Jumbo></Jumbo>
         <div class="container_primary">
             <div class="container">
                 <h3 class="py-5">--> Content goes here </h3>
