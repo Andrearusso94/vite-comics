@@ -122,37 +122,41 @@ export default {
             <div class="container footer-top py-5">
                 <div class="row">
                     <div class="col-2">
-                        <h3>DC COMICS</h3>
+
                         <ul>
+                            <h3>DC COMICS</h3>
                             <li v-for="item in linkMenu">
                                 <a :href="item.href">{{ item.text }}</a>
                             </li>
                         </ul>
-                        <h3 class="my-2">Shop</h3>
+
                         <ul class="my-2">
+                            <h3 class="my-2">Shop</h3>
                             <li v-for="item in shop">
                                 <a :href="item.href">{{ item.text }}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-2">
-                        <h3>DC</h3>
+
                         <ul>
+                            <h3>DC</h3>
                             <li v-for="item in dcMenu">
                                 <a :href="item.href">{{ item.text }}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-2">
-                        <h3>Sites</h3>
+
                         <ul>
+                            <h3>Sites</h3>
                             <li v-for="item in sites">
                                 <a :href="item.href">{{ item.text }}</a>
                             </li>
 
                         </ul>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 image">
                         <img src="../assets/img/dc-logo-bg.png" alt="">
                     </div>
                 </div>
