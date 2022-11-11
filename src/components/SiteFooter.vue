@@ -1,6 +1,123 @@
 <script>
 export default {
     name: 'SiteFooter',
+    data() {
+        return {
+            linkMenu: [
+                {
+                    text: 'Charaters',
+                    href: '#',
+                },
+                {
+                    text: 'Comics',
+                    href: '#',
+                },
+                {
+                    text: 'Movies',
+                    href: '#',
+                },
+                {
+                    text: 'Tv',
+                    href: '#',
+                },
+                {
+                    text: 'Games',
+                    href: '#',
+                },
+                {
+                    text: 'Video',
+                    href: '#',
+                },
+                {
+                    text: 'News',
+                    href: '#',
+                },
+                {
+                    text: 'Shop',
+                    href: '#',
+                }
+            ],
+            shop: [
+                {
+                    text: 'Shop DC',
+                    href: '#',
+                },
+                {
+                    text: 'Shop DC Collectibles',
+                    href: '#',
+                },
+            ],
+            dcMenu: [
+                {
+                    text: 'Terms Of Use',
+                    href: '#',
+                },
+                {
+                    text: 'Privacy policy (New)',
+                    href: '#',
+                },
+                {
+                    text: 'Ad Choise',
+                    href: '#',
+                },
+                {
+                    text: 'Advertising',
+                    href: '#',
+                },
+                {
+                    text: 'Jobs',
+                    href: '#',
+                },
+                {
+                    text: 'Subscription',
+                    href: '#',
+                },
+                {
+                    text: 'Talent Workshops',
+                    href: '#',
+                },
+                {
+                    text: 'CPSC Certificates',
+                    href: '#',
+                },
+                {
+                    text: 'Ratings',
+                    href: '#',
+                },
+                {
+                    text: 'Shop Help',
+                    href: '#',
+                },
+                {
+                    text: 'Contact Us',
+                    href: '#',
+                },
+
+            ],
+            sites: [
+                {
+                    text: 'DC',
+                    href: '#',
+                },
+                {
+                    text: 'MAD Magazine',
+                    href: '#',
+                },
+                {
+                    text: 'DC kids',
+                    href: '#',
+                },
+                {
+                    text: 'DC Universe',
+                    href: '#',
+                },
+                {
+                    text: 'DC Power Visa',
+                    href: '#',
+                },
+            ]
+        }
+    }
 }
 </script>
 <template>
